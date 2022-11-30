@@ -13,10 +13,10 @@ const parameters = {
   starColor: "yellow",
 };
 
-gui.addColor(parameters, "materialColor").onChange(() => {
-  material.color.set(parameters.materialColor);
-  particalesMaterial.color.set(parameters.materialColor);
-});
+// gui.addColor(parameters, "materialColor").onChange(() => {
+//   material.color.set(parameters.materialColor);
+//   particalesMaterial.color.set(parameters.materialColor);
+// });
 
 /**
  * Base
