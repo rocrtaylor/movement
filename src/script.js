@@ -6,17 +6,17 @@ import gsap from "gsap";
 /**
  * Debug
  */
-// const gui = new dat.GUI();
+const gui = new dat.GUI();
 
 const parameters = {
   materialColor: "green",
   starColor: "yellow",
 };
 
-// gui.addColor(parameters, "materialColor").onChange(() => {
-//   material.color.set(parameters.materialColor);
-//   particalesMaterial.color.set(parameters.materialColor);
-// });
+gui.addColor(parameters, "materialColor").onChange(() => {
+  material.color.set(parameters.materialColor);
+  particalesMaterial.color.set(parameters.materialColor);
+});
 
 /**
  * Base
