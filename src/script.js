@@ -15,7 +15,7 @@ const parameters = {
 
 gui.addColor(parameters, "materialColor").onChange(() => {
   material.color.set(parameters.materialColor);
-  particalesMaterial.color.set(parameters.starColor);
+  // particalesMaterial.color.set(parameters.starColor);
 });
 
 /**
